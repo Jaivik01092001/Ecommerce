@@ -1,0 +1,286 @@
+/* About CSS */
+.common {
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+.imgstyle {
+  min-width: 10rem;
+  height: 10rem;
+}
+.emartpara {
+  margin: 2rem 0;
+  line-height: 25px;
+  font-size: 17px;
+}
+
+.emarttitle {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.introdata {
+  margin-bottom: 0;
+  font-size: 17px;
+  line-height: 25px;
+  color: #5138ee;
+  font-family: "Work Sans", sans-serif;
+}
+
+.herosectiondata {
+  width: 100%;
+}
+.herosectionimage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgstyle {
+  width: 80%;
+  height: auto;
+  margin-left: 3rem;
+}
+
+.shop {
+  border-radius: 0.5rem;
+  max-width: 10rem;
+  padding: 1rem 1.5rem;
+  background-color: rgb(98, 84, 243);
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 0.1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+.shop:hover {
+  border-radius: 0.5rem;
+  max-width: 10rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(98, 84, 243);
+  padding: 1rem 1.5rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+.grid {
+  display: grid;
+  gap: 9rem;
+}
+
+.gridtwocolumn {
+  grid-template-columns: repeat(2, 1fr);
+}
+.aboutcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+/* CSS for screens smaller than 768px (mobile devices) */
+
+/* Services CSS */
+
+.container {
+  padding: 9rem 0;
+  width: 88%;
+  margin: auto;
+}
+.grid {
+  gap: 2rem;
+}
+.gridthreecolumn {
+  grid-template-columns: repeat(3, 1fr);
+}
+.services1,
+.services2,
+.services3 {
+  width: auto;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #f7f9fa;
+  /* background: ${({ theme }) => theme.colors.bg}; */
+  text-align: center;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.services2 {
+  gap: 1.5rem;
+  background-color: transparent;
+  box-shadow: none;
+}
+.servicescolum2 {
+  /* background: ${({ theme }) => theme.colors.bg}; */
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  background-color: #f7f9fa;
+}
+
+.services2 > .servicescolum2 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* .divsub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  } */
+
+.h3title {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.icon {
+  /* font-size: rem; */
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #5138ee;
+}
+.slverbg {
+  background-color: #f7f9fa;
+}
+
+/* trusted partner css */
+.containertrusted {
+  height: 20%;
+  width: 88%;
+  margin: auto;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 0rem;
+  background-color: white;
+  /* background-color: rgb(51, 109, 168); */
+  
+}
+.brandsection {
+  padding: 1rem 0 0 0;
+}
+.trustedh3 {
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(29, 29, 29, 0.8);
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+}
+
+.trustedimage {
+  min-width: 10rem;
+  height: 10rem;
+  margin-left: 5rem;
+}
+
+.mar > .overlay::before,
+.mar > .overlay::after {
+  background: linear-gradient(
+    90deg,
+    RGBA(246, 248, 250, 1) 0%,
+    rgba(246, 248, 250, 0) 100%
+  ) !important;
+}
+
+.brandsectionslider {
+  margin-top: -10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+
+  .aboutcontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+
+  .imgstyle {
+    width: 90%;
+    height: auto;
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+  .emartpara {
+    text-align: justify;
+    padding: 0 1rem;
+  }
+  .emarttitle {
+    text-align: justify;
+    font-size: 57px;
+    margin-left: 1rem;
+  }
+  .shop {
+    margin-left: 1rem;
+  }
+  .shop:hover {
+    margin-left: 1rem;
+  }
+  .introdata {
+    margin-left: 1rem;
+  }
+
+  /* service responsive */
+
+  .container {
+    padding: 4rem 0;
+  }
+  .gridthreecolumn {
+    grid-template-columns: 1fr;
+  }
+  .services1,
+  .services2,
+  .services3 {
+    height: 15rem;
+  }
+
+  /* Trusted Partner */
+
+  /* .brandsectionslider {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    grid-template-columns: 3fr 1fr;
+    text-align: center;
+  }
+  .mlr {
+    margin-right: 0rem;
+  } */
+}

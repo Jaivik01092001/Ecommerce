@@ -1,0 +1,68 @@
+.common {
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+.container {
+  margin-top: 6rem;
+}
+.contactform {
+  max-width: 50rem;
+  margin: auto;
+}
+.contactinputs {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.submit {
+    border-radius: 0.5rem;
+    max-width: 10rem;
+    margin-left: 10rem;
+    margin-top: 0rem;
+    padding: 1rem 1.5rem;
+    background-color: rgb(98, 84, 243);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 0.1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+.submit:hover {
+    border-radius: 0.5rem;
+    max-width: 10rem;
+    margin-left: 10rem;
+    margin-top: 0rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(98, 84, 243);
+    padding: 1rem 1.5rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+.textarea{
+    width: 30rem;
+    margin-left: 10rem;
+    max-width: 50rem;
+    color: rgb(33, 37, 41);
+    padding: 1rem 1rem;
+    border: 1px solid rgba(98, 84, 243, 0.5);
+    text-transform: uppercase;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+
+@media (max-width: 767px) {
+  .textarea {
+    width: 23rem;
+    padding: 1rem 1rem;
+    border: 1px solid rgba(98, 84, 243, 0.5);
+    text-transform: uppercase;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+}
