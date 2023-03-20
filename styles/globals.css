@@ -27,6 +27,7 @@ a {
 }
 .layout {
   padding: 10px;
+  overflow-x: hidden;
 }
 
 .navbar-container {
