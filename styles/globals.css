@@ -124,6 +124,8 @@ span.text-red {
   background-color: #ebebeb;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
+  height: 15.5rem;
+    object-fit: contain;
 }
 
 .product-name {
@@ -178,11 +180,6 @@ span.text-red {
   height: 450px;
   transition: transform 1s;
 }
-
-.hero-banner-image:hover {
-  transform: scale(1.2);
-}
-
 .desc {
   position: absolute;
   right: 10%;
@@ -428,15 +425,15 @@ span.text-red {
 .product-detail-image {
   border-radius: 15px;
   background-color: #ebebeb;
-
+  object-fit: contain;
   width: 400px;
   height: 400px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-.product-detail-image:hover {
+/* .product-detail-image:hover {
   background-color: #f02d34;
-}
+} */
 .small-images-container {
   display: flex;
   gap: 10px;
@@ -448,11 +445,12 @@ span.text-red {
   width: 70px;
   height: 70px;
   cursor: pointer;
+  object-fit: contain;
 }
 
-.selected-image {
+/* .selected-image {
   background-color: #f02d34;
-}
+} */
 .reviews {
   color: #f02d34;
   margin-top: 10px;
@@ -640,7 +638,9 @@ span.text-red {
     height: 50%;
     top: 3%;
     right: -6%;
+    transform: translate(20px, 152px);
   }
+
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
@@ -650,6 +650,7 @@ span.text-red {
     left: 30%;
     top: 6%;
     height: 50%;
+    transform: translate(17px, 40px);
   }
   .banner-desc .left h3 {
     font-weight: 900;
@@ -777,7 +778,7 @@ span.text-red {
     right: 0px;
   }
   .cart-item-qty {
-    top: 4.7%;
+    top: 100%;
     right: 39.7%;
   }
   

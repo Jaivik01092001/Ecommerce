@@ -81,12 +81,11 @@ const Contact = () => {
 
       {/* Partners Section */}
 
-      <div className={styles.containertrusted}>
+      {/* <div className={styles.containertrusted}>
         <h3 className={styles.trustedh3}>Trusted By 100+ Companies</h3>
 
         <Marquee number="20" className={styles.mar}>
           <div className={styles.brandsectionslider}>
-            {/* my 1st img  */}
             <div className={`${styles.slide} ${styles.mlr}`}>
               <img
                 className={styles.trustedimage}
@@ -145,7 +144,7 @@ const Contact = () => {
             </div>
           </div>
         </Marquee>
-      </div>
+      </div> */}
     </>
   );
 };

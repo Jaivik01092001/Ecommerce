@@ -171,11 +171,12 @@
 }
 .slverbg {
   background-color: #f7f9fa;
+  display: flex;
 }
 
 /* trusted partner css */
 .containertrusted {
-  height: 20%;
+  height: 22rem;
   width: 88%;
   margin: auto;
   border-radius: 1rem;
@@ -184,8 +185,7 @@
   align-items: center;
   flex-direction: column;
   padding: 5rem 0rem;
-  background-color: white;
-  /* background-color: rgb(51, 109, 168); */
+  background-color: #F7F9FA;
   
 }
 .brandsection {
@@ -232,7 +232,10 @@
     margin-top: 1rem;
     margin-left: 0rem;
   }
-
+  .slverbg {
+    background-color: #f7f9fa;
+    display: flex;
+  }
   .imgstyle {
     width: 90%;
     height: auto;
@@ -274,7 +277,7 @@
 
   /* Trusted Partner */
 
-  /* .brandsectionslider {
+  .brandsectionslider {
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
@@ -285,5 +288,5 @@
   }
   .mlr {
     margin-right: 0rem;
-  } */
+  }
 }
