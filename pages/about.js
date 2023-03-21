@@ -35,7 +35,7 @@ const Contact = () => {
 
               <img
                 className={styles.imgstyle}
-                src="https://images.pexels.com/photos/4199235/pexels-photo-4199235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://www.kindpng.com/picc/m/762-7626064_e-commerce-websites-ecommerce-png-transparent-png.png"
                 alt="hero-section-photo"
                 style={{ borderRadius: "1rem" }}
               />

@@ -252,10 +252,9 @@ span.text-red {
 }
 .footer-banner-image {
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
-  left: 25%;
+    top: -7%;
+    left: 25%;
+    width: 32%;
 }
 
 .banner-desc .right {
@@ -723,6 +722,7 @@ span.text-red {
   }
   .product {
     padding: 20px 5px;
+    justify-content: center;
   }
   .product .cart-product-image {
     width: 25%;
@@ -758,6 +758,10 @@ span.text-red {
   }
   .cart-bottom {
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .total h3 {
