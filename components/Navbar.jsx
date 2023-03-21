@@ -151,7 +151,7 @@ export default function Navbar() {
                     </Link>
                 </div>
 
-                <div >
+                <div>
                     <button type="button" className="cart-icon" onClick={() => setShowCart(true)} >
                         <AiOutlineShopping />
                         <span className="cart-item-qty">{totalQuantities}</span>
